@@ -2,6 +2,7 @@ MIT License
 
 Copyright (c) Jason Pena <jasonpena@awkless.com>
 Copyright (c) Carlos Ramirez <carlosjrcem@gmail.com>
+Copyright (c) Vincent Sanchez <vsanche1@nmsu.edu>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
