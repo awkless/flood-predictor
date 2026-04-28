@@ -8,7 +8,7 @@ Firstly, install pipx in order to install UV. Once pipx is installed run the
 following:
 
 ```
-pipx install uv
+pip install uv
 ```
 
 Secondly, create a virtual environment through UV and source it:
@@ -24,16 +24,24 @@ Lastly, build the application like so:
 uv pip install -e .
 ```
 
-Now the `flood-predictor` CLI app is available in the virtual environment,
-and be run like so:
+Now the `flood-predictor-app` GUI is available in the virtual environment to predict flash flood probability and risk level, and be run as:
+```
+flood-predictor-app /path/to/gage-height.csv /path/to/discharge.csv
+```
 
+Also, the `flood-predictor` CLI is available in the virtual environment and can be used to train the model:
 ```
 flood-predictor /path/to/gage-height.csv /path/to/discharge.csv
 ```
 
 ## Usage
 
+### Training the model
 python flood\_prediction.py <gage_height_data.csv> <discharge_data.csv>
+
+### Run the GUI
+python app.py /path/to/gage-height.csv /path/to/discharge.csv
+
 
 ### Notes
 

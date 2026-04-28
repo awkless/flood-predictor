@@ -23,6 +23,7 @@ dependencies = [
 
 [project.scripts]
 flood-predictor = "flood_predictor.__main__:main"
+flood-predictor-app = "flood_predictor.app:main"
 
 [build-system]
 requires = ["hatchling"]
